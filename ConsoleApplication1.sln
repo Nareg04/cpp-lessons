@@ -2,7 +2,7 @@
 
 struct Product {
     int price;
-    char name{ 15 };
+    char name[ 15 ];
     double weight;
 };
 
