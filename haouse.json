@@ -1,0 +1,84 @@
+[
+	{
+		"House": "multi-storeyv",
+		"entranceж": 1,
+		"tax":[1{
+			"Home": 4{
+				"room": [1{
+					"window": 1,
+					"corner": 4,
+				},2{
+					"window": 2,
+					"corner": 4,
+				},3{
+					"window": 2,
+					"corner": 4,
+				},
+					],
+			},
+			"door": 4,
+		},2{
+			"Home": 4{
+				"room": [1{
+					"window": 1,
+					"corner": 4,
+				},2{
+					"window": 2,
+					"corner": 4,
+				},3{
+					"window": 1,
+					"corner": 4,
+				},
+					],
+			},
+			"door": 4,
+		},3{
+			"Home": 4{
+				"room": [1{
+					"window": 2,
+					"corner": 4,
+				},2{
+					"window": 2,
+					"corner": 4,
+				},3{
+					"window": 2,
+					"corner": 4,
+				},
+					],
+			},
+			"door": 4,
+		},4{
+			"Home": 4{
+				"room": [1{
+					"window": 2,
+					"corner": 4,
+				},2{
+					"window": 2,
+					"corner": 4,
+				},3{
+					"window": 1,
+					"corner": 4,
+				},
+					],
+			},
+			"door": 4,
+		},5{
+			"Home": 4{
+				"room": [1{
+					"window": 2,
+					"corner": 4,
+				},2{
+					"window": 2,
+					"corner": 4,
+				},3{
+					"window": 1,
+					"corner": 4,
+				},
+					],
+			},
+			"door": 4,
+		}],
+		"lift": false
+		
+	}
+]
