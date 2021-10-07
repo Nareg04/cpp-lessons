@@ -1,23 +1,58 @@
 #include "iostream"
+using namespace std;
 
-struct Car {
-    int price;
-    char name[15];
-    int speed;
+struct About
+{
+	int width;
+	int lengh;
 };
-int main(){
-     
-    Car avto;
-    
-    std::cin >> avto.name;
 
-    std::cout << "Car name: " << avto.name << "\n";
+class floor_plan
+{
+public:
+	About masin;
+	floor_plan()
+	{
+		this->masin.width = 30;
+		this->masin.lengh = 8;
+	}
+	void squires(floor_plan *b)
+	{
+		cout << b->masin.width * b->masin.lengh << "\n";
+	}
 
-     avto.price = 15;
-     std::cout << "Car price: " << avto.price << "\n";
-     avto.speed = 260;
-     std::cout << "Car speed: " << avto.speed << "\n";
+};
 
-    return 0;
+class House : public floor_plan
+{
+public:
+	double height;
+	House()
+	{
+		this->height = 18;
+	}
+
+	void valume(House *own)
+	{
+		cout << own->masin.width * own->masin.lengh * this->height << "\n";
+	}
+
+	~House()
+	{
+		cout << "The end";
+	}
+};
+
+int main()
+{
+	floor_plan hatakagic;
+	House parametrs;
+
+	cout << "Squires: ";
+	hatakagic.squires(&hatakagic);
+
+	cout << "Valume: ";
+	parametrs.valume(&parametrs);
+
+	return 0;
 }
-
